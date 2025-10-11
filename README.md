@@ -31,7 +31,7 @@ With simple keyboard shortcuts, the system captures multiple screenshots, sends 
 
 ✅ **Automatic Screenshot Storage**
 
-* Screenshots are saved locally in your specified folder (default: `C:\Users\<YourName>\Downloads\vcam\Screenshots`).
+* Screenshots are saved locally in your specified folder (default: `C:\Users\<YourName>`).
 * Each file is timestamped and indexed for easy reference.
 
 ✅ **AI-Powered Screenshot Analysis**
@@ -69,7 +69,7 @@ Example startup output:
 
 ```
 🤖 AI Screenshot Agent Started!
-📁 Screenshots folder: C:\Users\KHALID\Downloads\vcam\Screenshots
+📁 Screenshots folder: C:\Users\KHALID
 💬 Telegram Chat ID: 5855425119
 🔑 Using Google Gemini API
 🎮 Controls:
@@ -116,7 +116,7 @@ Once stopped:
 🔍 AI Analysis Results:
 📊 Screenshots analyzed: 3
 🕐 Analysis time: 2025-10-11 20:35:10
-📁 Saved to: C:\Users\KHALID\Downloads\vcam\Screenshots
+📁 Saved to: C:\Users\KHALID
 
 ==================================================
 📋 DETAILED ANALYSIS:
