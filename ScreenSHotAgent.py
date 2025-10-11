@@ -6,11 +6,11 @@ from PIL import ImageGrab
 import keyboard
 
 # Configuration
-TELEGRAM_TOKEN = "8135558390:AAHqbxQwCcYyk1unXEYS_IfLcr3oD3vsPI0"
-TELEGRAM_CHAT_ID = "5855425119"
-GOOGLE_API_KEY = "AIzaSyBqM9HPt89zIuiuLje2dtceY6nYG_qx8Sk"
-# AIzaSyBUT0aplAbhYue54g_J4vElSSTV76kcox4
-SCREENSHOT_FOLDER = r"C:\Users\KHALID\Downloads\vcam\Screenshots"
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
+GOOGLE_API_KEY = ""
+
+SCREENSHOT_FOLDER = r"Your Choice"
 
 # Global variables
 screenshots = []
