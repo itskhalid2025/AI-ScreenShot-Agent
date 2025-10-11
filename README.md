@@ -70,7 +70,7 @@ Example startup output:
 ```
 🤖 AI Screenshot Agent Started!
 📁 Screenshots folder: C:\Users\KHALID
-💬 Telegram Chat ID: 5855425119
+💬 Telegram Chat ID: xxxxxxxxx
 🔑 Using Google Gemini API
 🎮 Controls:
   Caps Lock → Start/Stop screenshot collection
