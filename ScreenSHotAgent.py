@@ -5,61 +5,8 @@ Author: Mohammed Khalid
 Version: 1.0.0
 Created: 2025
 License: MIT
-
-Description:
-    This application is an automated screenshot capture and analysis tool that integrates
-    with Google Gemini AI and Telegram for real-time image analysis and sharing. It allows
-    users to capture multiple screenshots using keyboard shortcuts, automatically upload
-    them to Telegram, and receive AI-powered analysis of the content.
-
-Features:
-    - Keyboard-controlled screenshot capture (Caps Lock to start/stop, Right Shift to capture)
-    - Automatic image upload to Telegram
-    - AI-powered analysis using Google Gemini 1.5 Flash
-    - Support for code analysis, question answering, and MCQ/MSQ solving
-    - Batch processing of multiple screenshots
-    - Local storage of captured images
-
-Use Cases:
-    - Educational: Capture exam questions and get instant answers
-    - Development: Analyze code snippets and get improvement suggestions
-    - Documentation: Capture and analyze technical diagrams or documentation
-    - Research: Collect and analyze visual information
-
-Requirements:
-    - Python 3.7+
-    - PIL (Pillow)
-    - keyboard
-    - requests
-    - Active internet connection
-    - Telegram Bot Token and Chat ID
-    - Google Gemini API Key
-
-Setup:
-    1. Install dependencies: pip install pillow keyboard requests
-    2. Create a Telegram bot via @BotFather and get the token
-    3. Get your Telegram Chat ID
-    4. Obtain Google Gemini API key from Google AI Studio
-    5. Configure the tokens and paths in the Configuration section below
-
-Usage:
-    1. Run the script: python screenshot_agent.py
-    2. Press Caps Lock to start collecting screenshots
-    3. Press Right Shift to capture additional screenshots
-    4. Press Caps Lock again to submit and process all captured screenshots
-    5. View results in your Telegram chat
-
-Notes:
-    - Screenshots are saved locally before being processed
-    - AI analysis results are sent as text messages after images
-    - Rate limiting is implemented to prevent Telegram API throttling
-    - Long messages are automatically split into chunks
-
-Author Contact:
-    Mohammed Khalid
-    GitHub: [Your GitHub Profile]
-    Email: [Your Email]
 """
+
 
 import os
 import time
